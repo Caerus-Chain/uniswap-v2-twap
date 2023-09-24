@@ -2,7 +2,7 @@
 The `UniswapV2TWAPOracle` is a Solidity smart contract that calculates the Time-Weighted Average Price (TWAP) for a Uniswap V2 pair. The contract utilizes both current and past cumulative prices to generate an average price that is resistant to manipulation.
 
 ### Methods
-**consult(address token, uint amountIn, uint256 pastBlockNumber)**
+1. **consult(address token, uint amountIn, uint256 pastBlockNumber)**
 - Calculates the Time-Weighted Average Price (TWAP) for a given `token` in a Uniswap V2 pair.
 
 ## Prerequisites
