@@ -21,3 +21,5 @@ main()
     console.error(error);
     process.exit(1);
   });
+// Deploying contracts with the account: 0xa40aa030A3ba4f42FDCd2B7bC33d5B03770290ea
+// UniswapV2TWAPOracle deployed to: 0xCfC0306a3834857E764aFDa39bbeAF71952EfDfC
