@@ -1,4 +1,7 @@
 require("@nomicfoundation/hardhat-toolbox");
+require("dotenv").config();
+
+const PRIVATE_KEY = process.env.PK;
 
 /** @type import('hardhat/config').HardhatUserConfig */
 module.exports = {
@@ -21,6 +24,7 @@ module.exports = {
     },
     caerus: {
       url: "http://18.216.66.253:38545",
+      accounts: [PRIVATE_KEY],
     },
   }
 };
